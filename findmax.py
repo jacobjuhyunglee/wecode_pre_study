@@ -1,6 +1,7 @@
 num = [17, 92, 18, 33, 58, 7, 33, 42]
 
 
+# 최댓값 찾기
 def find_max(a):
     max_num = a[0]
     for i in range(1, len(num)):
@@ -12,6 +13,7 @@ def find_max(a):
 print(find_max(num))
 
 
+# 최댓값 위치 찾기
 def find_max_idx(a):
     max_idx = 0
     for i in range(1, len(num)):
@@ -23,6 +25,7 @@ def find_max_idx(a):
 print(find_max_idx(num))
 
 
+# 최솟값 찾기
 def find_min(a):
     min_num = a[0]
     for i in range(1, len(num)):
